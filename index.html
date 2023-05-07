@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spotify your favorite music is here</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="spotify.png" alt="">spotify</li>
+            <li>home</li>
+            <li>about</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songList">
+            <h1>Here is your Playlist</h1>
+            <div>
+                <div class="songItem">
+                    <img src="apna.jpg" alt="" srcset="">
+                    <span class="songName">Apna Bana le <span class="duration"></span></span>
+                    <span class="songListPlay"> <img src="play.png" id="0" class="play"alt=""></span>
+                </div>
+                <div class="songItem">
+                    <img src="perfect.jpeg" alt="" srcset="">
+                    <span class="songName">Perfect <span class="duration"></span></span>
+                    <span class="songListPlay"> <img src="play.png" id="1" class="play"alt=""></span>
+                </div>
+                <div class="songItem">
+                    <img src="todh.jpg" alt="" srcset="">
+                    <span class="songName">Todh <span class="duration"></span></span>
+                    <span class="songListPlay"> <img src="play.png"id="2" class="play"alt=""></span>
+                </div>
+                <div class="songItem">
+                    <img src="dekh le.jpeg" alt="" srcset="">
+                    <span class="songName">Tu ake dekh le <span class="duration"></span></span>
+                    <span class="songListPlay"> <img src="play.png"id="3" class="play"alt=""></span>
+                </div>
+                <div class="songItem">
+                    <img src="maan-meri-jaan.jpg" alt="" srcset="">
+                    <span class="songName">Maan meri jaan <span class="duration"></span></span>
+                    <span class="songListPlay"> <img src="play.png" id="4"class="play"alt=""></span>
+                </div>
+                <div class="songItem">
+                    <img src="unholy.webp" alt="" srcset="">
+                    <span class="songName">unholy <span class="duration"></span></span>
+                    <span class="songListPlay"> <img src="play.png" id="5"class="play" alt=""></span>
+                </div>
+            </div>
+        </div>
+        <div class="banner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="progress" value="0" min="0" max="100">
+        <div class="icons">
+            <img src="previous.png" alt="" id="prev">
+            <img src="play.png" alt="" id="masterPlay">
+            <img src="forward.png" alt="" id="next">
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" alt="" srcset="" id="giffy"><span id="masterSongName">Apna Bana le</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
